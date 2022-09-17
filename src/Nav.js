@@ -19,8 +19,11 @@ function Nav() {
         <Link to='/gallery'>
           <li>Gallery</li>
         </Link>
-        <Link to='/task'>
-          <li>Work</li>
+        <Link to='/js'>
+          <li>Javascript</li>
+        </Link>
+        <Link to='/tasks'>
+          <li>Tasks</li>
         </Link>
       </ul>
     </nav>

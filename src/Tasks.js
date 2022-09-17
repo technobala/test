@@ -1,9 +1,7 @@
 function Tasks(){
-  return (
-    <div className="App">
-      <h1>welcome Tasks Page</h1>
-    </div>
-  );
+  return<div>
+    <h1>THis is task</h1>
+  </div>
 }
 
-export default Tasks();
+export default Tasks;

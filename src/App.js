@@ -6,6 +6,7 @@ import Home from './Home';
 import Nav from './Nav';
 import Gallery from './Gallery';
 import Tasks from './Tasks';
+import Javascript from './Js';
 import {BrowserRouter as Router, Route, Routes, Switch} from 'react-router-dom';
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
           <Route path='/about' element={<About/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/gallery' element={<Gallery/>}/>
-          <Route path='/work' element={<Tasks/>}/>
+          <Route path='/tasks' element={<Tasks/>}/>
+          <Route path='/js' element={<Javascript/>}/>
         </Routes>
       </div>
     </Router>
